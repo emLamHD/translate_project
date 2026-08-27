@@ -1,0 +1,45 @@
+# Customer/private document content
+private_samples/
+outputs/
+work/
+*.doc
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Private translation assets and runtime reports
+*translation_cache*.json
+*translation_report*.json
+approved_translations*.csv
+private_tm/
+private_reports/
+*.audit.json
+memory_worplan_with_claude_chat.md
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python/tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Model artifacts are never part of this repository
+*.bin
+*.safetensors
+*.onnx
+models/
